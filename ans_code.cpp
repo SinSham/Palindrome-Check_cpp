@@ -1,4 +1,6 @@
 #include <bits/stdc++.h> 
+using namespace std;
+
 
 int getLength(string str){
     int count = 0;
@@ -45,4 +47,16 @@ bool checkPalindrome(string s)
     }
 
     return 1;
+}
+
+int main(){
+    string s;
+    cin>>s;
+    if(checkPalindrome(s)){
+        cout<<"Yes"<<endl;
+    }
+    else{
+    cout<<"No"<<endl;
+    }
+    return 0;
 }
