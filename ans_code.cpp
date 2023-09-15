@@ -2,7 +2,7 @@
 using namespace std;
 
 bool isSpecial(char a){
-    if((a>=48 && a<=57) || (a>=65 && a<=90) || (a>=97 && a<=122)){
+    if((a>='a' && a<='z') || (a>='A' && a<='Z') || (a>='0' && a<='9')){
         return 0;
     }
 
